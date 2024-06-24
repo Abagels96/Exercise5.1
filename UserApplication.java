@@ -14,7 +14,7 @@ public class UserApplication {
 			
 			//System.out.println(strings[0]);
 		UserServiceCreate userService= new UserServiceCreate();
-		Object flarf = userService.createUser(strings).toString();
-		System.out.println(flarf.toString());
+		String flarf = userService.createUser(strings).toString();
+		System.out.println(flarf);
 	}
 }
