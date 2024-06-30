@@ -1,5 +1,5 @@
 package com.coderscampus.lesson5;
-import com.coderscampus.lesson2.User;
+
 
 
 public class UserServiceCreate {
@@ -22,4 +22,9 @@ return user;
 		
 	
 }
-}
+public String[]  parseText(String input)
+{
+String[] inputArray= new String[3];
+inputArray=input.split(",");
+return inputArray;
+}}

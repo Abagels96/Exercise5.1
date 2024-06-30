@@ -1,7 +1,13 @@
-package com.coderscampus.lesson2;
+package com.coderscampus.lesson5;
 
 //POJO plain old java object
 public class User {
+
+	@Override
+	public String toString() {
+		return "User [username=" + username + ", password=" + password + ", firstName=" + firstName + ", lastName="
+				+ lastName + ", unsuccessfulLoginAttempts=" + unsuccessfulLoginAttempts + "]";
+	}
 
 	private String username;
 	private String password;
